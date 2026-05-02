@@ -1,27 +1,17 @@
-# Web Security
+# Web Security & Cyber Security Portfolio
+I am a web development student specializing in web security, building hands-on experience in vulerability testing and basic threat analysis.
 
-This repository contains hands-on web security testing exercises based on labs from platforms like: 
-- TryHackMe 
-- Hack The Box.
+## Focus
+- Vulnerability testing (IDOR, authentication, session issues)
+- Understanding attack behavior
+- Developing skills for SOC analysis and incident response
 
+## Tools
+- Bupr Suite
+- Nmap
 
-## Focus Areas
-- OWASP Top 10
-- Access Control (IDOR)
-- Authentication & Session Management
-- SQL Injection
-- JWT Analysis
+## Example work
+- IDOR testing (OWASP Juice Shop)
+- Authentication and Session analysis
+- Basic security event analysis
 
-
-## Lab Writeups
-### 1. IDOR Vulnerability
-- Identified insecure direct object reference via parameter manipulation
-- Exploited by modifying user ID in request
-- Impact: Unauthorized data access
-- Mitigation: Implement proper access control checks
-
-### 2. Authentication Testing
-- Tested login flow and session handling
-- Observed lack of proper validation in edge cases
-- Impact: Potential account compromise
-- Mitigation: Strengthen validation and session controls
